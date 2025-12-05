@@ -187,24 +187,32 @@ export default function ContactPage() {
                 </div>
 
                 {/* Phone */}
-                <div className="bg-gray-50 border border-gray-200 p-6">
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-blue-600 flex items-center justify-center flex-shrink-0">
-                      <span className="text-white text-xl">📞</span>
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-gray-900 mb-2 uppercase text-sm">Phone</h3>
-                      <a href="tel:+919850151717" className="text-blue-600 font-bold hover:text-blue-700">
-                        +91 9850151717
-                      </a>
-                      <span></span>
-                      <a href="tel:+919850857210" className="text-blue-600 font-bold hover:text-blue-700">
-                        +91 9850857210
-                      </a>
-                      
-                    </div>
-                  </div>
-                </div>
+<div className="bg-gray-50 border border-gray-200 p-6">
+  <div className="flex items-start space-x-4">
+    <div className="w-12 h-12 bg-blue-600 flex items-center justify-center flex-shrink-0">
+      <span className="text-white text-xl">📞</span>
+    </div>
+
+    <div>
+      <h3 className="font-bold text-gray-900 mb-2 uppercase text-sm">Phone</h3>
+
+      <a
+        href="tel:+919850151717"
+        className="text-blue-600 font-bold hover:text-blue-700 block"
+      >
+        +91 9850151717
+      </a>
+
+      <a
+        href="tel:+919850857210"
+        className="text-blue-600 font-bold hover:text-blue-700 block"
+      >
+        +91 9850857210
+      </a>
+    </div>
+  </div>
+</div>
+
 
                 {/* Email */}
                 <div className="bg-gray-50 border border-gray-200 p-6">
