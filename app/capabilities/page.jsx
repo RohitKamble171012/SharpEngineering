@@ -559,6 +559,7 @@ export default function CapabilitiesPage() {
               <h4 className="font-bold text-white mb-4 uppercase text-sm">Contact</h4>
               <ul className="space-y-2 text-sm">
                 <li>+91 9850151717</li>
+                <li>+91 9850857210</li>
                 <li>sharpengineering25@gmail.com</li>
               </ul>
             </div>
