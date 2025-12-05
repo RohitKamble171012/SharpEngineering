@@ -197,6 +197,10 @@ export default function ContactPage() {
                       <a href="tel:+919850151717" className="text-blue-600 font-bold hover:text-blue-700">
                         +91 9850151717
                       </a>
+                      <a href="tel:+919850857210" className="text-blue-600 font-bold hover:text-blue-700">
+                        +91 9850857210
+                      </a>
+                      
                     </div>
                   </div>
                 </div>
@@ -225,8 +229,8 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-bold text-gray-900 mb-2 uppercase text-sm">Business Hours</h3>
                       <p className="text-gray-700 text-sm">
-                        Monday - Saturday: 9:00 AM - 6:00 PM<br />
-                        Sunday: Closed
+                        Tuesday - Sunday: 9:00 AM - 6:00 PM<br />
+                        Monday: Closed
                       </p>
                     </div>
                   </div>
@@ -317,6 +321,7 @@ export default function ContactPage() {
               <h4 className="font-bold text-white mb-4 uppercase text-sm">Contact</h4>
               <ul className="space-y-2 text-sm">
                 <li>+91 9850151717</li>
+                <li>+919850857210</li>
                 <li>sharpengineering25@gmail.com</li>
               </ul>
             </div>
