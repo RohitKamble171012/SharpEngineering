@@ -379,9 +379,9 @@ export default function QualityPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-10 h-10 bg-blue-600 flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">SE</span>
-                </div>
+                <div className="w-10 h-10 bg-cover flex items-center justify-center">
+                <img src="logo.png" alt="Sharp Engineering Logo" className="w-10 h-10 object-contain" />
+              </div>
                 <div>
                   <h3 className="font-bold text-white uppercase">Sharp Engineering</h3>
                   <p className="text-xs text-gray-500">Est. 1998</p>
